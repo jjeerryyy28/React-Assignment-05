@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0; /* Remove default margin */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+}
+
+.logo {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.main-section {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('https://wallpapers.com/images/high/pastel-mountain-range-aesthetic-mac-d2scpr7wfxa3fuda.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.background-image h1 {
+  color: #fff;
+  font-size: 48px;
+  margin-top: -25rem;
+}
+
+footer {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+footer p span {
+  color: red;
+}
